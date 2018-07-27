@@ -2,7 +2,10 @@ import React from 'react';
 import Card from './Card';
 
 
-const CardList = ({robots}) =>{
+const CardList = ({robots}) => {
+	if(false){
+		throw new Error('NOOOOOOO!');
+	}
 	return (
 		<div>
 			{
